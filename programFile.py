@@ -37,7 +37,7 @@ model = Sequential()
 
 model.add(Convolution2D(filters=32,kernel_size=(17,17),activation='relu',input_shape=(28, 28, 1)))
 
-model.add(MaxPooling2D(pool_size=(6,6)))
+model.add(MaxPooling2D(pool_size=(5,5)))
 
 model.add(Flatten())
 
