@@ -1,5 +1,5 @@
 import fileinput
-f=open('addtxt.txt','r')
+f=open('addFile.txt','r')
 line=f.readlines()
 filename='file.py'
 for lines in fileinput.FileInput(filename,inplace=1):
