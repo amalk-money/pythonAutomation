@@ -1,11 +1,13 @@
-import fileinput
 f=open('addFile.txt','r')
-line=f.readlines()
-s=''
-s=s.join(line)
+lines=f.readlines()
 f.close()
-filename='programFile.py'
-for lines in fileinput.FileInput(filename,inplace=1):
-        if '#add' in lines:
-                lines = lines.rstrip()
-                lines=lines.replace(lines, '\n'+s+'\n' )
+
+str=" "
+str=str.join(lines)
+
+import fileinput
+file = "programFile.py"
+for line in fileinput.FileInput(file, inplace=1):
+    if '#' in line:
+        line = line.replace(line,str+'\n')
+    print(line,)
