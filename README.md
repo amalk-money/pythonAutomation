@@ -1,19 +1,28 @@
 # pythonAutomation
 # Overview of the project
-In the world of Devops, it is all about the automation and how to automate the task. 
+In the world of Devops, it is all about the automation and how to automate the task.
 According to the researches, most companies fail to successfully deliver ML based projects and are stuck in the process of tuning the model to work better. Then came the new technology called MLOps which integrates the ML with Devops to address such challenges.
-One of the challenges is finding the better accuracy of the model by tweaking the model. So a small setup I created is demonstrated below.
+One of the challenges is finding the better accuracy of the model by tweaking the model. So I created a small setup as demonstrated below.
 For this project I used the Jenkins, Git and Docker Devops tools and CNN program.
+
 ## Project Setup 
 In the Jenkins I used the following jobs:
+
 ## Job 1: Copy the github code
+
 When the developer creates the code, it pushes the code to github via git and as soon as the code is pushed, Jenkins job automatically starts to run.
+
 ![copy files general]( https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20files%20general.png)
 https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20pgm%20general.png
-![copy files scm](https://github.com/amalk-money/drupal_with_docker/blob/master/ScreenShots/up.png)
-![copy files build trigger](https://github.com/amalk-money/drupal_with_docker/blob/master/ScreenShots/up.png)
-![copy files build](https://github.com/amalk-money/drupal_with_docker/blob/master/ScreenShots/up.png)
+
+![copy files scm](https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20files%20scm.png)
+
+![copy files build trigger](https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20files%20build%20trigger.png)
+
+![copy files build](https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20files%20build.png)
+
 Copied files are copied to the `/py` folder.
+
 ## Job2: Creating the environment
 This job will create the environment to run the program what the developer defined. Before creating the environment, it will check f the environment is present or not. If not it will create the environment.
 ![env gen]( https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/env%20general.png)
