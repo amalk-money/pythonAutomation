@@ -27,7 +27,9 @@ Copied files are copied to the `/py` folder.
 
 ## Job2: Creating the environment
 
-This job will create the environment to run the program what the developer defined. Before creating the environment, it will check f the environment is present or not. If not it will create the environment.
+This job will create the environment to run the program what the developer defined.
+
+Before creating the environment, it will check for the environment is present or not. If not it will create the environment.
 
 ![env gen]( https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/env%20general.png)
 
