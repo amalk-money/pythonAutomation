@@ -16,7 +16,6 @@ In the Jenkins I used the following jobs:
 When the developer creates the code, it pushes the code to github via git and as soon as the code is pushed, Jenkins job automatically starts to run.
 
 ![copy files general]( https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20files%20general.png)
-https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20pgm%20general.png
 
 ![copy files scm](https://github.com/amalk-money/pythonAutomation/blob/master/screenShots/copy%20files%20scm.png)
 
